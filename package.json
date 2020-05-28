@@ -4,7 +4,8 @@
   "description": "This project is a part of the 'Understanding TypeScript' course form Udemy by Maximilian Schwarzmüller<br/> [link to the course](https://www.udemy.com/course/understanding-typescript/)",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon dist/app.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,8 @@
     "express": "^4.17.1"
   },
   "devDependencies": {
+    "@types/express": "^4.17.6",
+    "@types/node": "^14.0.5",
     "nodemon": "^2.0.4"
   }
 }
